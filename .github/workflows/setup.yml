@@ -13,7 +13,8 @@ jobs:
       - name: move the file
         run: |
           ls
-          mv ./instance-contents/new-stack.yml ./.github/stacks/stack.yml
+          mkdir .github/stacks
+          mv ./instance-contents/new-stack.yml .github/stacks/stack.yml
           rm ./README.md
           mv ./instance-contents/README.md ./README.md
           rm -r ./instance-contents
