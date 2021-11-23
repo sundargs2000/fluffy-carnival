@@ -1,5 +1,5 @@
 # Shhh... Something amazing is brewing here
-Here starts the journey to create an amazing stack. We have set up a `.github/workflows/ci.yml` to run some checks on your stack and help you debug it. Get started by editing `.github/stacks/stack.yml` to configure your stack the way you want. Use the comments in it and this [doc](https://github.com/github/github-stacks/blob/main/adrs/stack-schema.md) to get an idea of the syntax.
+Here starts the journey to create an amazing stack. We have set up a [`.github/workflows/ci.yml`](.github/workflows/ci.yml) to run some checks on your stack and help you debug it. Get started by editing `.github/stacks/stack.yml` to configure your stack the way you want. Use the comments in it and this [doc](https://github.com/github/github-stacks/blob/main/adrs/stack-schema.md) to get an idea of the syntax.
 
 Points to keep in mind:
 1. **Stacks can be only consumed through releases** - `Use this template` button uses the latest release. So make sure to create a release on an update to be able to test out the changes (we have better experiences coming 🙏). You can uncomment a step in `.github/workflows/ci.yml` which craetes a release on every push if you want.
